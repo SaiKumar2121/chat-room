@@ -1,0 +1,64 @@
+# Room Chat
+
+A real-time chat application built with Node.js, Express, and Socket.IO. Users can create or join chat rooms by entering a room code and participate in group conversations.
+
+## Features
+
+- Create or join chat rooms with custom codes
+- Set maximum number of members per room (1-10)
+- Real-time messaging with timestamps
+- Automatic room cleanup when empty
+- Responsive web interface
+
+## Prerequisites
+
+- Node.js (version 14 or higher)
+- npm (comes with Node.js)
+
+## Installation
+
+1. Clone the repository or download the project files.
+2. Navigate to the project directory:
+   ```
+   cd /home/saikumar/room-chat
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+## Running the Application
+
+1. Start the server:
+   ```
+   node server.js
+   ```
+2. Open your web browser and go to:
+   ```
+   http://localhost:3000
+   ```
+
+The server will start on port 3000 by default. You can change the port by setting the `PORT` environment variable:
+```
+PORT=8080 node server.js
+```
+
+## Usage
+
+1. Enter your name (optional, defaults to "Guest")
+2. Enter a room code or click "Create Room" to generate one
+3. Set the maximum number of members (1-10, defaults to 2)
+4. Click "Create Room" or "Join Room"
+5. Start chatting! Messages will appear in real-time for all room members
+
+## Project Structure
+
+- `server.js` - Main server file handling Socket.IO connections and room management
+- `public/index.html` - Frontend HTML interface
+- `public/app.js` - Frontend JavaScript for chat functionality
+- `package.json` - Project dependencies and metadata
+
+## Dependencies
+
+- Express: Web framework for serving static files
+- Socket.IO: Real-time bidirectional communication
