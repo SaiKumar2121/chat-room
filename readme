@@ -10,3 +10,4 @@ Users join a room with a code and chat with each other.
 ```bash
 git clone https://github.com/SaiKumar2121/chat-room.git
 cd chat-room
+```
