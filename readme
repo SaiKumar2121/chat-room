@@ -1,32 +1,11 @@
-A simple and lightweight real-time chat application built with **Node.js**, **Express**, and **Socket.IO**.  
-Users can create or join rooms using a **room code** and a **maximum member limit**, making it ideal for quick private group chats.
+# Chat Room
 
-🔗 **Repository:** https://github.com/SaiKumar2121/chat-room
+Simple real-time chat app using Node.js, Express, and Socket.IO.  
+Users join a room with a code and chat with each other.
 
----
+## How to run
 
-## 🚀 Features
-
-- Create a chat room with a custom room code  
-- Choose how many members are allowed (e.g., 2, 4, custom)  
-- Share room code with others to join  
-- Real-time chat using Socket.IO  
-- Prevent additional users from joining if room is full  
-
----
-
-## 🧰 Tech Stack
-
-- **Node.js**  
-- **Express.js**  
-- **Socket.IO**  
-- **HTML / CSS / Vanilla JavaScript**  
-
----
-
-## 📦 Installation & Setup
-
-### 1️⃣ Clone the repository
+1. Clone the repo
 
 ```bash
 git clone https://github.com/SaiKumar2121/chat-room.git
