@@ -1,14 +1,34 @@
-#Chat Room
+
+# Chat Room
 
 Simple real-time chat app using Node.js, Express, and Socket.IO.  
 Users join a room with a code and chat with each other.
 
-###How to run
+## How to run
 
-1. Clone the repo
+### 1. Clone the repo
 
 ```bash
 git clone https://github.com/SaiKumar2121/chat-room.git
 cd chat-room
 ```
 
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the server
+
+```bash
+node server.js
+```
+
+### 4. Open in browser
+
+Go to:
+
+```
+http://localhost:3000
+```
