@@ -1,4 +1,4 @@
-# Room Chat
+ Room Chat
 
 A real-time chat application built with Node.js, Express, and Socket.IO. Users can create or join chat rooms by entering a room code and participate in group conversations.
 
