@@ -1,9 +1,9 @@
-# Chat Room
+#Chat Room
 
 Simple real-time chat app using Node.js, Express, and Socket.IO.  
 Users join a room with a code and chat with each other.
 
-## How to run
+###How to run
 
 1. Clone the repo
 
@@ -11,3 +11,4 @@ Users join a room with a code and chat with each other.
 git clone https://github.com/SaiKumar2121/chat-room.git
 cd chat-room
 ```
+
